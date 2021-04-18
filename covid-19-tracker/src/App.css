@@ -20,7 +20,7 @@ body {
 }
 
 .app__left {
-  flex: 0.9;
+  flex: 0.7;
 }
 
 .app__stats {
@@ -32,4 +32,4 @@ body {
   .app {
     flex-direction: column;
   }
-}
+} 
