@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Line } from "@reactchartjs/react-chart.js"
+import { Line } from "react-chartjs-2";
 import numeral from "numeral";
 
 const options = {
@@ -76,7 +76,7 @@ function LineGraph({ casesType }) {
             .then((data) => {
               let chartData = buildChartData(data, casesType);
               setData(chartData);
-              console.log(chartData);
+              // console.log(chartData);
               // buildChart(chartData);
             });
         };
